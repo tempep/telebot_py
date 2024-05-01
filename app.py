@@ -15,8 +15,8 @@ def send_data():
 
 
 def send_msg(text):
-    token='7143040538:AAH2EVjaOb7GQHKbhYEObYuwBGEDbFQJVL0'
-    chat_id='1211655018'
+    token='6691619294:AAEl12s-4uBL1aKLMXFTrKQSVN6jyKZujsY'
+    chat_id='6173510595'
     url_req=f"https://api.telegram.org/bot{token}/sendMessage"
     params = {
         "chat_id": chat_id,
